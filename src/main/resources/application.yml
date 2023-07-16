@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+         uri: https://github.com/Nagarajujunna90/config-service.git
+         username: nagarajujunna90
+         password: Nagaraju@23v
+         default-label: master
+         clone-on-start: true
