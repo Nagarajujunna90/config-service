@@ -6,8 +6,8 @@ spring:
     config:
       server:
         git:
-         uri: https://github.com/Nagarajujunna90/config-service.git
-         username: nagarajujunna90
+         uri: https://github.com/Nagarajujunna90/config_repo.git
+         username: Nagarajujunna90
          password: Nagaraju@23v
          default-label: master
          clone-on-start: true
